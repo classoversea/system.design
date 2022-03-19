@@ -8,9 +8,9 @@
 - https://systeminterview.com/design-youtube.php
 
 ## Youtube / Netflix
-- Exponent - Engineering Manager System Design Interview (Wealthfront EM): Design YouTube
+##### Exponent - Engineering Manager System Design Interview (Wealthfront EM): Design YouTube
 - https://www.youtube.com/watch?v=1xV5WI0OFkg
-### Exponent - System Design Interview: Design Netflix
+##### Exponent - System Design Interview: Design Netflix
 - https://www.youtube.com/watch?v=VvZf7lISfgs
 - codeKarle - Netflix System Design | YouTube System Design | System Design Interview Question
 - https://www.youtube.com/watch?v=lYoSd2WCJTo

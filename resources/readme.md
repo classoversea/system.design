@@ -26,3 +26,16 @@
 ## Analytics
 - Exponent - Facebook System Design Interview: Design an Analytics Platform (Metrics & Logging)
 - https://www.youtube.com/watch?v=kIcq1_pBQSY
+
+## Top K
+- System Design Interview - System Design Interview - Top K Problem (Heavy Hitters)
+- https://www.youtube.com/watch?v=kx-XDoPjoHw&t=2s
+- SDE Skills - System Design - Top K Heavy Hitters (Mock Interview) - by Aseem Puri and Nisha Gambhir
+- https://www.youtube.com/watch?v=yk6HrzlBQYo
+- LearningNinja - Trending topics system design
+- https://www.youtube.com/watch?v=RMuLavkPLwc
+- Reach Goals - System Design : Top 10 Songs, Top Trending songs, Top K listed
+- https://www.youtube.com/watch?v=CA-ei3mOCf4
+- Candor - Design a system for identifying trending topics | Facebook SWE Interview Question
+- https://www.youtube.com/watch?v=onYBQR7qnWE
+

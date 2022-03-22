@@ -30,16 +30,16 @@
 - memory: 1M concurrent * 10K / connection = 10GB
 - connection: 100M / 500K = 200 chat servers
 
-## System API
-- boolean sendMessage(fromId, toType, toId, content, timestamp)
-- List<Entity> getFriendList(fromId)
-- List<Message> getMessage(lastMessageId)
-  
 ## Database Design
 - users(id, name, password)
 - groups(id, name, createUserId)
 - friends(fromId, toType, toId, lastChatTime)
 - messages(id, fromId, toType, toId, content, timestamp)
+
+## System API
+- boolean sendMessage(fromId, toType, toId, content)
+- List<Entity> getFriends(fromId)
+- List<Message> getMessages(fromId, lastMessageId)
 
 ## High-level Design
 

@@ -32,10 +32,14 @@
 
 ## System API
 - boolean sendMessage(fromId, toType, toId, content, timestamp)
+- List<Entity> getFriendList(fromId)
 - List<Message> getMessage(lastMessageId)
   
 ## Database Design
-  
+- users(id, name, password)
+- groups(id, name, createUserId)
+- friends(fromId, toType, toId, lastChatTime)
+- messages(id, fromId, toType, toId, content, timestamp)
 
 ## High-level Design
 

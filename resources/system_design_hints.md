@@ -16,6 +16,10 @@
 ## Functional Requirement
 
 ## Non-functional Requirement
+- high reliability 
+- high availability
+- high scalability
+- low latency
 
 ## Capacity Estimation
 

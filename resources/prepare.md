@@ -11,8 +11,10 @@
 ## Videos
 - Mikhall Smarshchok - System Design Interview
 - https://www.youtube.com/c/SystemDesignInterview/videos
-- SystemsExpert
-- https://www.algoexpert.io/systems/product
+- SystemsExpert - 13 Systems Design Interview Questions
+- https://www.algoexpert.io/systems/questions
+- SystemsExpert - Systems Design Fundamentals
+- https://www.algoexpert.io/systems/fundamentals
 - Scott Shi's System Design Seminar
 - https://www.youtube.com/playlist?list=PLAd5bt5mn3V3TrrJFBpnu4PH9e8KZMvNA
 - Martin Kleppmann - Distributed Systems lecture series

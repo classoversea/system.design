@@ -44,3 +44,6 @@
 ## High-level Design
 
 ## Detail Design
+- sharding web socket server by user ID
+  
+  

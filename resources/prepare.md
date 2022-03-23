@@ -35,3 +35,16 @@
 - https://www.1point3acres.com/bbs/thread-776466-1-1.html
 - Sr SDE 面试经验分享
 - https://www.1point3acres.com/bbs/thread-855164-1-1.html
+
+## Tips
+- HackBear - 系統設計面試6個技巧｜我面Google前的準備方法
+- https://www.youtube.com/watch?v=zomYKjlvJGU
+- 从HighLevel开始，一开始太详细可能讲不完
+- 不断问问题，不断沟通，从需求开始
+- 只说模块概念，不要谈具体的技术
+- 主动提出Trade Off
+- 不要背答案，查看题目分类
+- 不要和面试官争论
+
+## Edit
+- https://github.com/classoversea/system.design/blob/main/resources/prepare.md

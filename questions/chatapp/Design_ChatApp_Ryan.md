@@ -46,8 +46,8 @@
 
 ## Detail Design
 ### Data Flow
-- 00. user logins app
-- 10. user client finds an available web socket server S1 with discovery service
+00. user logins app
+10. user client finds an available web socket server S1 with discovery service
 - 11. users send heartbeat to web socket server, and status service stores status
 - 21. user1 send a message to user2
 - 22. web socket server S1 will return "message sent" to user1

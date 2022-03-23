@@ -39,3 +39,14 @@
 - Candor - Design a system for identifying trending topics | Facebook SWE Interview Question
 - https://www.youtube.com/watch?v=onYBQR7qnWE
 
+## TikTok
+- Gaurav Sen - System Design Interview: TikTok architecture with @sudoCODE
+- https://www.youtube.com/watch?v=07BVxmVFDGY
+- Exponent - System Design Mock Interview: Design TikTok ft. Google TPM
+- https://www.youtube.com/watch?v=Z-0g_aJL5Fw
+- The Stupid CS Guy - Mock System Design Interview - Build a system like TikTok (SDE 1 level)
+- https://www.youtube.com/watch?v=vpa2vQdF-AI
+- SoftWiz Circle - System Design of TikTok | Software Architecture of TikTok app | Learn Software design for TikTok App
+- https://www.youtube.com/watch?v=Hl-VlMGZj4o
+- The Tech Granth - System Design TIK TOK | Instagram Reels | Youtube Shorts | System Design Interview Question
+- https://www.youtube.com/watch?v=OPo_FB35E04

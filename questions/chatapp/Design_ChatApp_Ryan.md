@@ -46,19 +46,19 @@
 
 ## Detail Design
 ### Data Flow
-00. user logins app
-10. user client finds an available web socket server S1 with discovery service
-- 11. users send heartbeat to web socket server, and status service stores status
-- 21. user1 send a message to user2
-- 22. web socket server S1 will return "message sent" to user1
-- 23. web socket server S1 checks status DB and forwards the message to S2 if user2 is online
-- 24. user2 returns "message delivered" to S2, S1 and user1
-- 25. user2 returns "message read" to S2, S1, and user1 if the thread is open
-- 26. web socket server S1 always sends message to MQ
-- 30. message service will persist message to message DB
-- 31. notification service service will check user2's status and notify user2 if user2 is offline
-- 40. user2 can get friend list from GraphDB
-- 41. user2 can read all of messages with message service if back online
+- 00 user logins app
+- 10 user client finds an available web socket server S1 with discovery service
+- 11 users send heartbeat to web socket server, and status service stores status
+- 21 user1 send a message to user2
+- 22 web socket server S1 will return "message sent" to user1
+- 23 web socket server S1 checks status DB and forwards the message to S2 if user2 is online
+- 24 user2 returns "message delivered" to S2, S1 and user1
+- 25 user2 returns "message read" to S2, S1, and user1 if the thread is open
+- 26 web socket server S1 always sends message to MQ
+- 30 message service will persist message to message DB
+- 31 notification service service will check user2's status and notify user2 if user2 is offline
+- 40 user2 can get friend list from GraphDB
+- 41 user2 can read all of messages with message service if back online
   
 ### Scalability
 - sharding web socket server by user ID

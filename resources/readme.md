@@ -4,6 +4,7 @@
 - https://www.algoexpert.io/systems/product
 
 ## Book
+- https://github.com/resumejob/system-design-algorithms
 - https://www.educative.io/courses/grokking-the-system-design-interview/
 - https://systeminterview.com/design-youtube.php
 

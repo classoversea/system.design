@@ -37,11 +37,36 @@
 - low latency, reponse time <= 100ms
 
 ## Capacity Estimation
+- 100M URLs / day
+- Write QPS: 100M / 24 / 3600 = 1K
+- Write/Write=1/10, Read 10K QPS
+- Capacity: 100M * 365 days * 5 years = 200B
+- Storage: 100 bytes * 200B ~= 20TB
 
 ## System API
+- JSON shortURL(String originalURL); 
+- return { success: true, longURL: xxx, error: xxx }
+- JSON restoreURL(String shortURL);
+- return { success: true, shortURL: xxx, error: xxx }
 
 ## Database Design
+- urls(id, originalURL, shortURL)
+- 
 
 ## High-level Design
 
 ## Detail Design
+
+### short URL - Hash with Collision
+- [A-Za-z0-9], 62^7 > 200B
+- MD5 16 bytes, SHA-1 20 bytes, first 7 chars of MD5 encoding
+- keep appending pre-defined string and hash until no collision
+- expensive to check collision in DB
+- space efficient with bloom filter
+
+### short URL - ID to Base62
+- generate a unique ID, e.g. 11157
+- encode, 11157 = 2*62^2 + 55^62 + 59 = "2TX"
+- URL length not fixed
+- TODO-ID-Gen-Snowflake
+

@@ -23,7 +23,9 @@
 ## Functional Requirement
 - input a URL and get a short URL
 - visit the short URL and redirect to the original URL
-- short URL human-readable
+- short URL must be random
+- short URL must be unique
+- short URL must be human-readable
 - all URLs will expire if inactive
 - stored for 5 years 
 - recaptcha to avoid heavy use

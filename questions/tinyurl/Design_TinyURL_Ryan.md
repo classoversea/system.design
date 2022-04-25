@@ -51,11 +51,14 @@
 
 ## Database Design
 - urls(id, originalURL, shortURL)
-- 
 
 ## High-level Design
 
 ## Detail Design
+
+# redirection
+- 301: moved permenently, for speed
+- 302: moved temporarily, for analysis 
 
 ### short URL - Hash with Collision
 - [A-Za-z0-9], 62^7 > 200B

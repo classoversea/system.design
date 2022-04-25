@@ -53,6 +53,7 @@
 - urls(id, originalURL, shortURL)
 
 ## High-level Design
+![ImageURL](https://github.com/classoversea/system.design/blob/main/questions/dropbox/Design_TinyURL_Ryan.png)
 
 ## Detail Design
 

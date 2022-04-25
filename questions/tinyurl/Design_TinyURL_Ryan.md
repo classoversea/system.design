@@ -1,6 +1,7 @@
 # Design_TinyURL
 - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
 - https://systeminterview.com/unlock.php
+- https://www.youtube.com/watch?v=He-V_RuHwek
 
 ## Steps
 - functional/non-functional requirements, 5 min
@@ -20,12 +21,18 @@
 - 5 years = 365 * 4 ~= 2*10^3 days
 
 ## Functional Requirement
+- input a URL and get a short URL
+- visit the short URL and redirect to the original URL
+- short URL human-readable
+- all URLs will expire if inactive
+- stored for 5 years 
+- recaptcha to avoid heavy use
 
 ## Non-functional Requirement
-- high reliability 
-- high availability
-- high scalability
-- low latency
+- high reliability, no data lost/incorrect
+- high availability, 99.99% 
+- high scalability, 100M visits / day
+- low latency, reponse time <= 100ms
 
 ## Capacity Estimation
 

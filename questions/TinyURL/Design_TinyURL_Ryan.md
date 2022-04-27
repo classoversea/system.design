@@ -54,7 +54,7 @@
 - urls(id, originalURL, shortURL)
 
 ## High-level Design
-![ImageURL](https://github.com/classoversea/system.design/blob/main/questions/tinyurl/Design_TinyURL_Ryan.png)
+![ImageURL](https://github.com/classoversea/system.design/blob/main/questions/TinyURL/Design_TinyURL_Ryan.png)
 
 ## Detail Design
 

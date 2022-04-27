@@ -14,8 +14,10 @@
 ## Estimate
 - 1, K, M, G, T, P
 - 1, 3, 6, 9, 12, 15
+- 1, K, M, B, T, Quadrillion 
 - 1 day = 3600 * 24 ~= 10^5 seconds
 - 5 years = 365 * 4 ~= 2*10^3 days
+- 1M / 24 / 3600 = 10 QPS
 
 ## Template
 

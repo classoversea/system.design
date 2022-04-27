@@ -21,6 +21,7 @@
 - 5 years = 365 * 4 ~= 2*10^3 days
 
 ## Functional Requirement
+- twitter message has a length limit
 - input a URL and get a short URL
 - visit the short URL and redirect to the original URL
 - short URL must be random

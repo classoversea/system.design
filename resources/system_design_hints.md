@@ -7,7 +7,8 @@
 - database design, 5 min
 - System API, 5 min
 - detail and trade off, 10 min
-- optimization and monitor, 3 min
+- optimization and monitor, LCR, 3 min
+- LCR: Load Balancer, Cache, Replicate
 - summary, 2 min
 - ref: https://jishuin.proginn.com/p/763bfbd6a6d3
 
